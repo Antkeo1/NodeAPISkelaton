@@ -1,7 +1,10 @@
 const express = require('express')
 const mongoose = require('mongoose')
+const bodyParser = require('body-parser')
 const app = express() // creating an INSTANCE of express
 require('dotenv').config();
+
+app.use(bodyParser())
 
 const postRoute = require('./routes/post')
 
