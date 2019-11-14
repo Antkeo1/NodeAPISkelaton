@@ -1,11 +1,13 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
+// require cors after installing with npm 
 const cors = require('cors')
 const app = express() // creating an INSTANCE of express
 require('dotenv').config();
 
 app.use(bodyParser.json())
+// adding cors into my express server
 app.use(cors())
 
 const postRoute = require('./routes/post')
