@@ -1,6 +1,11 @@
 A simple Express server
 Video source: https://www.youtube.com/watch?v=vjf774RKrLc
 
+What is node js? 
+Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices
+
+It is an implementation of Javascript, that works outside of the browsers. When we say 'outside of the browsers', we mean in a terminal or a server. 
+
 step 1.
 npm init - created a package.json
     -  package.json = it contains all of the METADATA for your application (.i.e dependencies, scripts, name, version, license, keywords)
